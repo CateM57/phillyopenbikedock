@@ -12,11 +12,11 @@
 		11D5F3651B1BDBD60089759C /* PhillyOpenBikeDockAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D5F3641B1BDBD60089759C /* PhillyOpenBikeDockAppTests.swift */; };
 		11D5F36F1B1BDBE40089759C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D5F36E1B1BDBE40089759C /* CoreLocation.framework */; };
 		11D5F3711B1BE49C0089759C /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D5F3701B1BE49C0089759C /* ColorExtension.swift */; };
-		11D5F3771B1BE5060089759C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D5F3761B1BE5060089759C /* SwiftyJSON.swift */; };
 		11D5F37B1B1BE5F20089759C /* TabNearMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D5F37A1B1BE5F20089759C /* TabNearMeViewController.swift */; };
 		11D5F37F1B1BE6780089759C /* Refresh_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D5F37E1B1BE6780089759C /* Refresh_icon@2x.png */; };
 		11D5F38D1B1BE8B10089759C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D5F38C1B1BE8B10089759C /* DetailViewController.swift */; };
 		11D5F3941B1BF20A0089759C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D5F3931B1BF20A0089759C /* Main.storyboard */; };
+		11E0A8CD1B1C001D00B4C34C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E0A8CC1B1C001D00B4C34C /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +40,11 @@
 		11D5F3641B1BDBD60089759C /* PhillyOpenBikeDockAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhillyOpenBikeDockAppTests.swift; sourceTree = "<group>"; };
 		11D5F36E1B1BDBE40089759C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		11D5F3701B1BE49C0089759C /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
-		11D5F3761B1BE5060089759C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../../../../../Documents/Screenshots/SwiftyJSON.swift; sourceTree = "<group>"; };
 		11D5F37A1B1BE5F20089759C /* TabNearMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabNearMeViewController.swift; sourceTree = "<group>"; };
 		11D5F37E1B1BE6780089759C /* Refresh_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refresh_icon@2x.png"; sourceTree = "<group>"; };
 		11D5F38C1B1BE8B10089759C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		11D5F3931B1BF20A0089759C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		11E0A8CC1B1C001D00B4C34C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,11 +88,11 @@
 		11D5F34B1B1BDBD60089759C /* PhillyOpenBikeDockApp */ = {
 			isa = PBXGroup;
 			children = (
+				11E0A8CC1B1C001D00B4C34C /* SwiftyJSON.swift */,
 				11D5F34E1B1BDBD60089759C /* AppDelegate.swift */,
 				11D5F3701B1BE49C0089759C /* ColorExtension.swift */,
 				11D5F38C1B1BE8B10089759C /* DetailViewController.swift */,
 				11D5F37A1B1BE5F20089759C /* TabNearMeViewController.swift */,
-				11D5F3761B1BE5060089759C /* SwiftyJSON.swift */,
 				11D5F3931B1BF20A0089759C /* Main.storyboard */,
 				11D5F3551B1BDBD60089759C /* Images.xcassets */,
 				11D5F3571B1BDBD60089759C /* LaunchScreen.xib */,
@@ -228,9 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				11D5F3711B1BE49C0089759C /* ColorExtension.swift in Sources */,
-				11D5F3771B1BE5060089759C /* SwiftyJSON.swift in Sources */,
 				11D5F38D1B1BE8B10089759C /* DetailViewController.swift in Sources */,
 				11D5F37B1B1BE5F20089759C /* TabNearMeViewController.swift in Sources */,
+				11E0A8CD1B1C001D00B4C34C /* SwiftyJSON.swift in Sources */,
 				11D5F34F1B1BDBD60089759C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
